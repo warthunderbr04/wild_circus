@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<head>
+	<style>
+    html {
+		margin: 0;
+		padding: 0;
+		background: url("http://i.imgur.com/RdzSgiX.jpg") no-repeat center center;
+		background-size: cover;
+	}
+	
+	span {
+		color: blue;
+	}
+	
+	h1 {
+		text-align: center;
+		margin: 1% 28% 0% 28%;
+		font-family: 'Lobster', cursive;
+		font-size: 84px;
+		color: red;
+		border: 1px solid black;
+		background-color: rgba(0,0,0,0.5);
+		border-radius: 20px;
+	}
+	
+	h2 {
+		font-family: 'Lobster', cursive;
+		color: red;
+		background-color: rgba(0,0,0,0.2);
+		text-align: center;
+		margin-top: 0px
+	}
+	
+	article {
+		font-family: 'Lobster', cursive;
+		display: inline-block;
+		float: middle;
+		width: 650px;
+		height: 624px;
+		padding: 0px 10px 5px 10px;
+		margin: 150px 0px 0px 50px;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		border: 1px solid black;
+	}
+	img {
+		position: center;
+		max-width: 650px;
+		max-height: 640px;
+	}
+	
+	aside {
+		font-family: 'Lobster', cursive;
+		display: inline-block;
+		float: right;
+		width: 280px;
+		height: 622px;
+		margin: 150px 50px 0px 0px;
+		padding: 0px 10px 5px 10px;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		border: 1px solid black;
+	}
+	
+	li {
+		font-family: 'Lobster', cursive;
+		color: yellow;
+	}
+	
+	a {
+		color: yellow;
+	}
+		
+	button {
+      color: yellow;
+      border: 1px solid black;
+	  background-color: rgba(0,0,0,0.3);
+	  border-radius: 30px;
+    }
+    
+		
+	footer {
+		position: relative;
+		clear: both;
+		height: 80px;
+		width: 100%;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.7);
+	}
+	footer ul {
+		text-align: center;
+		margin: 30% 5% 0% 0%; 
+	}
+	footer li {	
+      margin: 50px 0px 0px 0px;
+	  color: red;
+	  display: inline;
+	  text-align: center;
+	  padding: 0% 20% 0% 20%;
+	}
+					  
+ </style>
+</head>
+
+<body>
+
+  <header>
+	<h1><span>"Wild</span> Circus"</h1>
+  </header>
+  <article>
+    <h2><span>"Lions</span> attack"</h2>
+    <p>a famous trainer has learned to dance has its lions. On the track, the animals were touching humanity. But this complicity between man and the animal was the result of great violence. Ten years after leaving the circus, he related what any professional would never speak: the barbarity of dressage. But sometimes the animals are rebelling...</p><br />
+    <img src="http://i.imgur.com/KDm1SVe.jpg"; height="444">
+  </article>
+  
+  <aside>
+		<h2>Videos</h2>
+		<ul>
+			<li><a href="https://www.youtube.com/watch?v=699WkZ4rYvI">Seven lions attack...</a></li><br />
+			<li><a href="https://www.youtube.com/watch?v=P5qL-J0wLi8">Attack or game ?</a></li><br />
+		</ul>
+		<br />
+		<img src="http://i.imgur.com/fKb91JQ.jpg"; width="280" height="220">
+		<img src="http://i.imgur.com/rsn1yEN.jpg"; width="280" height="220">
+  </aside> 		
+			
+</body>
+
+<footer>
+	<ul>
+      <li><button onclick="tickets()">Tickets</button></li>
+      <li><button onclick="schedules()">Schedules Show</button></li>
+      <li><button onclick="contact()">Contact</button></li>
+    </ul>
+	<script>
+    function tickets() { 
+    alert("TICKETS ON SALE NOW!\n \nONLINE: (Building...\n \nBY PHONE: Call 1-800-745-3000 to reserve your seats.\n \nGROUP SALES INFO: Call 866-248-8740.\n \nTICKET PRICES: Tickets available as low as $20\nmarket pricing applies to all tickets.Rates can\nfluctuate based on factorsthat affect supply\nand demand.");
+    }
+    function schedules() { 
+    alert("HUNTSVILLE, AL (Von Braun Center)\nOctober 01, 2016 - January 30, 2016\n \nWednesday and Friday- 8:00PM\nSaturday - 1:30PM and 8:00PM\nSunday - 1:30PM");
+    }
+    function contact() { 
+    alert("Wild Circus headquarters\n \n2001 US Highway 301\nHuntsville, AL 34221\nP:(866)721-1200");
+    }
+	</script>
+</footer>	
+	
+
+</html>
